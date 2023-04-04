@@ -10,11 +10,11 @@ function Form() {
   const router = useRouter();
 
   const onSubmit = (data) => {
-    console.log(`formからのデータ: ${data.name} ${data.number}`);
+    // console.log(`formからのデータ: ${data.name} ${data.number}`);
 
     router.push({
       pathname: "components/SearchResult",
-      query: { formData: JSON.stringify(data) },
+      query: { ...data },
     });
   };
 
