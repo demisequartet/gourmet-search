@@ -23,8 +23,10 @@ VScode1.77.1
 JavaScript
 
 ## 動作対象ブラウザ
-Google Chrome
-FireFox
+Google Chrome　最新版
+FireFox　最新版
+
+おそらく他のバージョンでも動作すると思います。
 
 
 ## 開発期間
@@ -43,6 +45,7 @@ FireFox
 
 ### 使用しているAPI,SDK,ライブラリなど
 - ホットペッパーグルメサーチAPI
+- Next.js
 
 ### アドバイスして欲しいポイント
-飲食店の一覧リストを使いやすく、見やすくしたい。
+
