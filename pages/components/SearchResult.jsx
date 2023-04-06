@@ -91,7 +91,7 @@ function SearchResult() {
     // 位置情報取得
     navigator.geolocation.getCurrentPosition((position) => {
       // console.log(`latitude: ${position.coords.latitude} longitude: ${position.coords.longitude}`);
-      const query = `?key=${apikey}&format=json&lat=${position.coords.latitude}&lng=${position.coords.longitude}&range=${data.number}&count=100`;
+      const query = `?key=${apikey}&format=json&lat=${position.coords.latitude}&lng=${position.coords.longitude}&range=${data.number}&count=100&keyword=${data.name}`;
       const url = "/api/hello/" + query;
 
       axios

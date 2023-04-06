@@ -23,7 +23,7 @@ function Form() {
       <form onSubmit={handleSubmit(onSubmit)} style={{ marginTop: "10px" }}>
         <Grid container spacing={5}>
           <Grid item xs={12}>
-            <TextField required label="キーワード" fullWidth {...register("name")} />
+            <TextField label="キーワード" fullWidth {...register("name")} />
           </Grid>
           <Grid item xs={12}>
             <FormLabel id="demo-radio-buttons-group-label">現在地からの距離</FormLabel>
