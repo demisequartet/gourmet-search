@@ -20,7 +20,7 @@ function Form() {
 
   return (
     <>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form onSubmit={handleSubmit(onSubmit)} style={{ marginTop: "10px" }}>
         <Grid container spacing={5}>
           <Grid item xs={12}>
             <TextField required label="キーワード" fullWidth {...register("name")} />
