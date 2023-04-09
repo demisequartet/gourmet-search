@@ -10,7 +10,7 @@
 material-UIを利用して、きれいなデザインにすることを心がけました。
 
 ### 公開したアプリの URL（Store にリリースしている場合）
-なし
+https://gourmet-search-swart.vercel.app/
 
 ### 該当プロジェクトのリポジトリ URL（GitHub,GitLab など Git ホスティングサービスを利用されている場合）
 https://github.com/demisequartet/gourmet-search
